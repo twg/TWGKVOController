@@ -1,15 +1,15 @@
 {
   "name": "TWGKVOController",
   "version": "0.1.0",
-  "summary": "A short description of TWGKVOController.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/TWGKVOController",
+  "summary": "Helper for working with Key-Value Observing",
+  "description": "TWGKVOController is a helper for working with Key-Value Observing.",
+  "homepage": "https://github.com/twg/TWGKVOController",
   "license": "MIT",
   "authors": {
-    "Brian Gilham": "me@briangilham.com"
+    "The Working Group": "mobile@twg.ca"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/TWGKVOController.git",
+    "git": "https://github.com/twg/TWGKVOController.git",
     "tag": "0.1.0"
   },
   "platforms": {
