@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		173D33641C7A9C3600FED76D /* TWGKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = 173D33621C7A9C3600FED76D /* TWGKVOController.h */; };
+		173D33651C7A9C3600FED76D /* TWGKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 173D33631C7A9C3600FED76D /* TWGKVOController.m */; };
 		3D71575AC2D01155DDEB92FFBED69EF7 /* TWGKVOController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 760BB2538CCF985312CA51A1ECD8005F /* TWGKVOController-dummy.m */; };
 		41985391E70D357536B3DB66538A4FC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		517A393D69CBCE640BD6E01492326C72 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AC32CE247E6EF270DA55A6E4FE5446 /* ReplaceMe.m */; };
 		57CF87C8CCB0A7FCAF2F3ACEAE473575 /* TWGKVOController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A505533702080E4DACF563479D8DE17 /* TWGKVOController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5AA3B44D901F010F58D78A70A2ED3908 /* TWGKVOController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C6C735D1A55D73D43BF56BC1AECA9360 /* TWGKVOController.bundle */; };
 		7142B8635FEE2E8734D69DC37A6EF001 /* Pods-TWGKVOController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 883FC1CC7D088DE652ED1636C2713F2C /* Pods-TWGKVOController_Tests-dummy.m */; };
@@ -36,6 +37,8 @@
 
 /* Begin PBXFileReference section */
 		16AB6A70D4C9EE9E806CD1E4F1231033 /* Pods-TWGKVOController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TWGKVOController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		173D33621C7A9C3600FED76D /* TWGKVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWGKVOController.h; sourceTree = "<group>"; };
+		173D33631C7A9C3600FED76D /* TWGKVOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWGKVOController.m; sourceTree = "<group>"; };
 		24F1496E472BD46526E945E1CF1F71DC /* TWGKVOController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TWGKVOController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4A505533702080E4DACF563479D8DE17 /* TWGKVOController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TWGKVOController-umbrella.h"; sourceTree = "<group>"; };
@@ -44,7 +47,6 @@
 		760BB2538CCF985312CA51A1ECD8005F /* TWGKVOController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TWGKVOController-dummy.m"; sourceTree = "<group>"; };
 		7771AB00D52A11FF8606E07EEBF2F35E /* Pods_TWGKVOController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWGKVOController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		883FC1CC7D088DE652ED1636C2713F2C /* Pods-TWGKVOController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TWGKVOController_Tests-dummy.m"; sourceTree = "<group>"; };
-		A7AC32CE247E6EF270DA55A6E4FE5446 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		AAF2FC53D5F56A8746255A10AB84E11E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B407F8B9767DA21DF70C101677CED18F /* TWGKVOController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TWGKVOController.modulemap; sourceTree = "<group>"; };
 		B69D010A48EB314D4AF2755B5BB1B6FB /* Pods-TWGKVOController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TWGKVOController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -139,7 +141,8 @@
 		404712B7C355FDF6ACE4240D4959320A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A7AC32CE247E6EF270DA55A6E4FE5446 /* ReplaceMe.m */,
+				173D33621C7A9C3600FED76D /* TWGKVOController.h */,
+				173D33631C7A9C3600FED76D /* TWGKVOController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				173D33641C7A9C3600FED76D /* TWGKVOController.h in Headers */,
 				F31A03C50D4FF7A5600A34EF7B910D25 /* Pods-TWGKVOController_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,6 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7142B8635FEE2E8734D69DC37A6EF001 /* Pods-TWGKVOController_Tests-dummy.m in Sources */,
+				173D33651C7A9C3600FED76D /* TWGKVOController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,7 +344,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				517A393D69CBCE640BD6E01492326C72 /* ReplaceMe.m in Sources */,
 				3D71575AC2D01155DDEB92FFBED69EF7 /* TWGKVOController-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
