@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "TWGKVOController"
   s.version          = "0.1.0"
-  s.summary          = "A short description of TWGKVOController."
+  s.summary          = "Helper for working with Key-Value Observing"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,13 +17,14 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+                        TWGKVOController is a helper for working with Key-Value Observing.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/TWGKVOController"
+  s.homepage         = "https://github.com/twg/TWGKVOController"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "Brian Gilham" => "me@briangilham.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/TWGKVOController.git", :tag => s.version.to_s }
+  s.author           = { "Brian Gilham" => "brian@twg.ca" }
+  s.source           = { :git => "https://github.com/twg/TWGKVOController.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
