@@ -1,0 +1,6 @@
+framework module TWGKVOController {
+  umbrella header "TWGKVOController-umbrella.h"
+
+  export *
+  module * { export * }
+}

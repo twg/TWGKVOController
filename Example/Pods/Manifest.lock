@@ -1,0 +1,14 @@
+PODS:
+  - TWGKVOController (0.1.0)
+
+DEPENDENCIES:
+  - TWGKVOController (from `../`)
+
+EXTERNAL SOURCES:
+  TWGKVOController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TWGKVOController: cf5c81432f7d304136797705d0b01b7a654be793
+
+COCOAPODS: 0.39.0
