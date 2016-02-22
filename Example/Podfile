@@ -4,6 +4,5 @@ use_frameworks!
 
 target 'TWGKVOController_Tests', :exclusive => true do
   pod 'TWGKVOController', :path => '../'
-
-  
+  pod 'Expecta'
 end

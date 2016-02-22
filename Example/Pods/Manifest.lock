@@ -1,7 +1,9 @@
 PODS:
+  - Expecta (1.0.5)
   - TWGKVOController (0.1.0)
 
 DEPENDENCIES:
+  - Expecta
   - TWGKVOController (from `../`)
 
 EXTERNAL SOURCES:
@@ -9,6 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
   TWGKVOController: cf5c81432f7d304136797705d0b01b7a654be793
 
 COCOAPODS: 0.39.0
