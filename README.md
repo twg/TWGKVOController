@@ -1,20 +1,23 @@
 # TWGKVOController
 
-[![CI Status](http://img.shields.io/travis/Brian Gilham/TWGKVOController.svg?style=flat)](https://travis-ci.org/Brian Gilham/TWGKVOController)
-[![Version](https://img.shields.io/cocoapods/v/TWGKVOController.svg?style=flat)](http://cocoapods.org/pods/TWGKVOController)
-[![License](https://img.shields.io/cocoapods/l/TWGKVOController.svg?style=flat)](http://cocoapods.org/pods/TWGKVOController)
-[![Platform](https://img.shields.io/cocoapods/p/TWGKVOController.svg?style=flat)](http://cocoapods.org/pods/TWGKVOController)
-
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
 
+TWGKVOController uses Expecta for testing.
+
 ## Installation
 
 TWGKVOController is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+it, ensure your Podfile sources the TWG specs repo:
+
+```ruby
+source "https://github.com/twg/cocoapod-specs.git"
+```
+
+Then, simply add the following line to your Podfile:
 
 ```ruby
 pod "TWGKVOController"
@@ -22,7 +25,7 @@ pod "TWGKVOController"
 
 ## Author
 
-Brian Gilham, me@briangilham.com
+Brian Gilham, brian@twg.ca
 
 ## License
 
