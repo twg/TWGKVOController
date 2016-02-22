@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "TWGKVOController"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "Helper for working with Key-Value Observing"
   s.description      = <<-DESC
                         TWGKVOController is a helper for working with Key-Value Observing.
